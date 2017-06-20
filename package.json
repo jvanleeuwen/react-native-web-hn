@@ -1,0 +1,38 @@
+{
+  "name": "boiler",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "compression": "^1.6.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "firebase": "^4.0.0",
+    "lodash.flowright": "^3.5.0",
+    "mobx": "^3.1.10",
+    "mobx-react": "^4.1.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-native-web": "^0.0.95",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "rethinkdb": "^2.3.3",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-register": "^6.24.1",
+    "flow-bin": "^0.47.0",
+    "nodemon": "^1.11.0",
+    "react-scripts": "^1.0.7",
+    "react-test-renderer": "^15.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "server": "NODE_ENV=production node server",
+    "now-start": "NODE_ENV=production node server"
+  }
+}
